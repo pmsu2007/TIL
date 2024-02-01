@@ -9,13 +9,13 @@ _1 TILs and counting..._
 
 ### 1 most recent TILs
 
-- [GitHub Actions](DevOps/GitHub Actions.md) - 01 Jan 01 00:00 UTC
+- [GitHub Actions](DevOps/GitHub-Actions.md) - 01 Jan 01 00:00 UTC
 
 ### Categories
 
 - [DevOps](#devops)
 
 ### [DevOps](#devops)
-- [GitHub Actions](DevOps/GitHub Actions.md)
+- [GitHub Actions](DevOps/GitHub-Actions.md)
 
 
