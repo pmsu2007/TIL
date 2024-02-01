@@ -1,8 +1,16 @@
 name: TIL
+run-name: ${{ github.actor }}'s TIL
 on: push
 jobs:
-  checkout:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-      - uses: actions/checkout@v4
+      - name: Check out
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Autoformat README
+        uses: cflynn07/github-action-til-autoformat-readme@1.2.4
+        with:
+          description: 제가 오늘 배운 내용을 기록하는 장소 입니다.
+          list_most_recent: 2
