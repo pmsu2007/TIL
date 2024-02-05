@@ -3,7 +3,7 @@
 
 제가 오늘 배운 내용을 기록하는 장소 입니다.
 
-_3 TILs and counting..._
+_2 TILs and counting..._
 
 ---
 
@@ -16,15 +16,11 @@ _3 TILs and counting..._
 
 - [DevOps](#devops)
 - [Java](#java)
-- [Test](#test)
 
 ### [DevOps](#devops)
 - [GitHub Actions](DevOps/GitHub-Actions.md)
 
 ### [Java](#java)
 - [Comparable_ Comparator](Java/Comparable_Comparator.md)
-
-### [Test](#test)
-- [ResultActions](Test/ResultActions.md)
 
 
