@@ -14,9 +14,12 @@ _3 TILs and counting..._
 
 ### Categories
 
-- [DevOps](#devops)
-- [Java](#java)
-- [Test](#test)
+- [TIL](#til)
+    - [2 most recent TILs](#2-most-recent-tils)
+    - [Categories](#categories)
+    - [DevOps](#devops)
+    - [Java](#java)
+    - [Test](#test)
 
 ### [DevOps](#devops)
 - [GitHub Actions](DevOps/GitHub-Actions.md)

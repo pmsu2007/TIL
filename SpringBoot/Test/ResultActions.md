@@ -32,7 +32,7 @@ ResultActions andExpect(ResultMatcher matcher) throws Exception;
 @Test
 public void 컨트롤러_슬라이스_테스트() {
     mockMvc.peform(get("/person/1"))
-        .andExpect(status.isOk())
+        .andExpect(status().isOk())
         .andExpect(content().contentType(MediaType.APPLICATION_JSON))
         .andExpect(jsonPath("$.person.name").value("Jason"));
 }
