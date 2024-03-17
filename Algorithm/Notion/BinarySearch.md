@@ -61,3 +61,47 @@ public static int binarySearch(int[] arr, int target, int left, int right) {
     return -1;
 }
 ```
+
+## Lower Bound & Upper Bound
+
+Lower Bound와 Upper Bound는 이분 탐색을 통해 경계값을 찾는 알고리즘이다.
+
+이분 탐색을 사용하기 때문에 **데이터가 정렬**되어 있어야 한다.
+
+### Lower Bound
+
+Lower Bound는 **찾고자 하는 값 이상이 처음 나타나는 위치**를 말한다. 같은 수가 여러 개 있더라도 찾고자 하는 값의 처음 나타나는 위치를 얻을 수 있다.
+
+```java
+public static int lowerBound(int l, int r, int k) {
+
+    while (l < r) {
+        int m = (l + r) / 2;
+
+        if (k > arr[m]) l = m + 1;
+        else r = m;
+
+    }
+
+    return r;
+}
+```
+
+### Upper Bound
+
+Upper Bound는 **찾고자 하는 값 보다 큰 값이 처음으로 나타나는 위치**를 말한다.
+
+```java
+public static int lowerBound(int l, int r, int k) {
+
+    while (l < r) {
+        int m = (l + r) / 2;
+
+        if (k >= arr[m]) l = m + 1;
+        else r = m;
+
+    }
+
+    return r;
+}
+```

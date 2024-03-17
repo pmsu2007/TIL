@@ -1,4 +1,4 @@
-# 정렬 
+# 정렬 (Sort)
 
 ## 삽입 정렬 (Insert Sort)
 
